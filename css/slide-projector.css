@@ -1,0 +1,19 @@
+.slide-projector{
+  padding-top:64px;
+  padding-bottom:64px;
+  width:100vw;
+  display:flex;
+  justify-content: center;
+}
+.slide{
+  width:80vw;
+  max-width:900px;
+  border-radius: 64px;
+  box-shadow: 0 0 60px 15px #66665f;
+}
+.slide-img{
+  width: 100%;
+  border-radius: 64px;
+  height: 100%;
+  box-shadow: 0 0 50px 50px white inset;
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    <div class="main-div">
+      <div class="home-header">
+        <div id="typewriter-title"></div>
+      </div>
+      <div class="slide-projector"  onclick="onSlideProjectorClick()">
+        <div class="slide">
+          <div class="slide-container">
+            <img src="img/img197.jpg" class="slide-img">
+          </div>
+        </div>
+      </div>
+
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
+
+
