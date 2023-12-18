@@ -4,3 +4,4 @@
 
 layout: home
 ---
+<a href="downloads/krebsindustries_ywdtrtbf_mp3.zip">Download Album</a>
