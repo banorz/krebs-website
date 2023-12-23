@@ -7,12 +7,14 @@ $( document ).ready(function() {
   });
 
   typewriter.typeString('KRABS')
-    .pauseFor(1200)
+    .pauseFor(300)
     .deleteChars(2)
     .pauseFor(200)
     .deleteChars(1)
-    .typeString('EBS')
+    .typeString('EBScollective')
     .pauseFor(1000)
+    .deleteChars(10)
+    .pauseFor(200)
     .typeString('indu')
     .pauseFor(100)
     .typeString('stries')

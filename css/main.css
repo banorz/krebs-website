@@ -18,6 +18,7 @@ html {
   color: #eeeeee;
   font-size: 1em;
   line-height: 1.4;
+  font-family: 'Special Elite', cursive;
 }
 
 /*
@@ -41,11 +42,11 @@ html {
 }
 
 header{
-  position:fixed;
+  position:relative;
   top:0;
 }
 footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
 }
 /*
@@ -194,7 +195,56 @@ textarea {
   /*font-family: 'Courier Prime', monospace;*/
   font-family: 'Special Elite', cursive;
 }
+a:link {
+  color: #f2f0e3;
+  background-color: transparent;
+  text-decoration: none;
+}
 
+a:visited {
+  color: #f2f0e3;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f2f0e3;
+  background-color: transparent;
+  text-decoration: underline;
+}
+#videofooter {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -10;
+  opacity:0.1;
+}
+
+a:active {
+  color: #d9d5ad;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.separator{
+  border-bottom: solid 1px #f2f0e3;
+}
+.social-button-follow{
+  width:50px;height:50px;margin-right:2px;margin-left:2px;
+}
+.download-div{
+  text-align:center;
+  width:100;
+  margin-top:16px;
+  padding:16px;
+  font-size:24px;
+}
+.container{
+  text-align:center;
+  margin-top:8px;
+  margin-bottom:8px;
+}
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.

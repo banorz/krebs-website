@@ -19,13 +19,14 @@
 # in the templates via {{ site.myvariable }}.
 
 title: KREBSindustries
-email: mail@krebsindustries.com
 description: >- # this means to ignore newlines until "baseurl:"
-  KREBSindustries produce oxygen, oxygen movement, air pressure, life, sounds, noise
+  KREBSindustries produces oxygen, oxygen movement, air pressure, life, sounds, noise
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://www.krebsindustries.xyz" # the base hostname & protocol for your site, e.g. http://example.com
+email: krebsindustries.info@gmail.com
+facebook: http://facebook.com/krebsindustries
+instagram: http://instagram.com/krebs_industries
+bandcamp: http://krebsindustries.bandcamp.com
 
 # Build settings
 plugins:
